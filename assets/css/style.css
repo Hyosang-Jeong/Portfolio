@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: black;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,13 +33,10 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: white;
+  font-weight: bold;
 }
 
-a:hover {
-  color: #12d640;
-  text-decoration: none;
-}
 
 h1,
 h2,
@@ -196,7 +193,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-  color: #12d640;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -292,7 +289,6 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
 }
 
 #header.header-top .social-links,
